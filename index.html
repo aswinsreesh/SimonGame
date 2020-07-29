@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 id="gametitle">The Simon Game</h1>
+    <h3 id="level-title">Press Any Key to Start</h3>
+
+    <div class="rules">
+        <h5 class="rulehead">RULES</h5>
+        <p class="rulesp">The game has four colored buttons, each producing a particular tone when it is pressed. A
+            round
+            in the game
+            consists of the device lighting up one or more buttons in a random order, after which the player must
+            reproduce
+            that order by pressing the buttons. As the game progresses, the number of buttons to be pressed increases.
+        </p>
+    </div>
+    <h5 id="topscores">Your top score is: 0</h5>
+
+    <div class="container">
+        <div class="row">
+            <div type="button" id="green" class="btn green"></div>
+            <div type="button" id="yellow" class="btn yellow"></div>
+            <div type="button" id="blue" class="btn blue"></div>
+            <div type="button" id="red" class="btn red"></div>
+        </div>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./game.js"></script>
+</body>
+
+</html>
